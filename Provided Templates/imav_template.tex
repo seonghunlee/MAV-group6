@@ -1,0 +1,71 @@
+%%%% imav.tex
+% This is the tex-file for the IMAV 2014 conference
+% for questions / remarks / bugs regarding the files, please contact info@imavs.org
+% You can use this style for your conference, as long as you refer to the IMAV 2014
+% in a comment similar to this one.
+% Of course, the IMAV 2014 is not liable for any aspects of its use.
+
+\documentclass{article}
+% The style file
+\usepackage{imav}
+% Use the postscript times font!
+\usepackage{times}
+\usepackage{graphicx}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{wasysym}
+%\numberwithin{algorithm}{chapter}
+%\usepackage{algorithmicx}
+% the following package is optional:
+%\usepackage{latexsym}
+
+\title{Autonomous Flight of Micro Air Vehicles 2015 - Group 6}
+\author{M. Bevernaegie\thanks{M.Bevernaegie@student.tudelft.nl}, C. Cheung\thanks{C.Cheung@student.tudelft.nl}, Y.I. Jenie\thanks{Y.I.Jenie-1@tudelft.nl}, S.H. Lee\thanks{S.H.Lee-2@student.tudelft.nl}, P. Lu\thanks{P.Lu-1@tudelft.nl}, M. Siddiquee\thanks{M.Siddiquee-1@student.tudelft.nl}, \\ Delft University of Technology, Delft, The Netherlands}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Should be done at the end
+\end{abstract}
+
+\section{Introduction} \label{section:introduction}
+Fantastic course.
+
+\section{Research method}
+\subsection{Vision implementation}
+\subsection{Structure}
+
+\section{Equipment}
+\subsection{Cyber Zoo \& Opti-Track}
+\subsection{AR.Drone 2.0 \& Paparazzi}
+
+\section{Simulation strategy}
+
+\section{Results}
+\subsection{Experiment results }
+\subsection{Simulation results}
+
+\section{Conclusion}
+Conclusion of the paper.
+
+\section*{Acknowledgements}
+Here you can place your acknowledgment.
+
+% BIBLIOGRAPHY:
+% use {unsrt}:
+\bibliographystyle{unsrt}
+\bibliography{imav_bibliography}
+
+% The following lines are necessary for showing the appendices correctly, do not change!
+\appendix
+\newcommand{\appsection}[1]{\let\oldthesection\thesection
+  \renewcommand{\thesection}{Appendix \oldthesection:}
+  \section{#1}\let\thesection\oldthesection}
+% appendices are now indicated by appsection:
+
+\appsection{Data}
+\appsection{More data}
+\end{document}
+
