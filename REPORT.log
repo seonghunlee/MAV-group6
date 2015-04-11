@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  11 APR 2015 22:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  12 APR 2015 00:48
 entering extended mode
 **REPORT.tex
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.tex
@@ -159,34 +159,65 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (C:\Users\Seong\Documents\GitHub\MAV-group6\fp_discussion.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\Yazdi_sim.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\Seong_sim.tex)
+(C:\Users\Seong\Documents\GitHub\MAV-group6\comp_results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 3--4
+[]\OT1/ptm/m/n/10 During the ac-tual com-pe-ti-tion, the black wall was
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 9.
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+])
+(C:\Users\Seong\Documents\GitHub\MAV-group6\conclusion.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+) [2
 
-
-
-
-]
-(C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux) ) 
+] (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux) ) 
 Here is how much of TeX's memory you used:
- 1692 strings out of 493705
- 22601 string characters out of 3144569
- 79450 words of memory out of 3000000
- 4983 multiletter control sequences out of 15000+200000
+ 1715 strings out of 493705
+ 23143 string characters out of 3144569
+ 82450 words of memory out of 3000000
+ 4997 multiletter control sequences out of 15000+200000
  18571 words of font info for 41 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 28i,8n,19p,362b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKT
-eX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on REPORT.pdf (1 page, 68648 bytes).
+ 28i,8n,19p,865b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/Mi
+KTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
+6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on REPORT.pdf (2 pages, 96725 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
