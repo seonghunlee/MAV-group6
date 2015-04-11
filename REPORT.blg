@@ -1,0 +1,10 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: REPORT.aux
+The style file: unsrt.bst
+I couldn't open database file imav_bibliography.bib
+---line 3 of file REPORT.aux
+ : \bibdata{imav_bibliography
+ :                           }
+I'm skipping whatever remains of this command
+I found no \citation commands---while reading file REPORT.aux
+I found no database files---while reading file REPORT.aux
+(There were 3 error messages)
