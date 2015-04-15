@@ -1,2 +1,53 @@
 \subsection{Linear Simulation}
 \textcolor{red}{Yazdi's method and results}
+
+In order to grasp the concept of the computer vision, a linear simulation program is developed in MATLAB. The simulation program is also used to preliminary test the chosen strategy before the code implementation into the paparazzi system. This simulation also gives our team possibility to easily test the strategy in various setups of the field at the tournament. 
+
+\subsubsection{Model and Setup}
+\textbf{The tournament field} is modeled based on our observation of the cyberzoo and the rules stated in the first announcement of the tournament[REF]. It is a 10 x 10 meter square field, with a smaller 7 x 7 meter square as the obstacle field , symmetrically placed inside, as shown in three example in Figure\ref{f:TopViewSamples}.
+
+\textbf{Poles}, our initial assumption of the possible obstacle, are placed inside the obstacle field. Since there are no setup information, we choose to randomize the pole initial parameters, i.e., the pole number, the pole diameter and the x-y position, as shown in the table\ref{t:RandomPole} below. The ranges of position (x,y) are set to make the whole body of a pole to always be inside the obstacle area, considering the diameter ranges. Note that the origin of the field model is on the bottom-left. A limitation is added in the randomization process, so that each pole are always separated by at least a certain distance, which is assumed to be 2 times the diameter of the drone. This last assumption actually limit the number of pole that can be put inside the obstacle field: we found out that randomly positioning more than 10 poles is very difficult. The height of the pole is assumed  to be constant, i.e., 2 meters high. 
+
+\begin{table}
+\caption{Range of pole parameters randomization}
+\label{t:RandomPole}
+\begin{tabular}{lcc}
+\hline \hline
+Parameter & Range & Unit \\
+Pole number & 4 - 10 & - \\
+Diameter & 40 - 60 & cm \\
+Positions (x,y) & 2.1 - 7.9 $^*$ & m \\
+\end{tabular}
+\end{table}
+
+\textbf{The Drone} is modeled from the observation of the AR-drone quad-rotor. Four circles with a heading indicator is used to visualized the drone with diameter of 0.4 m, in a top-down view as shown in Figure~\ref{f:TopViewSamples}. The drone motion is modeled using only linear kinematic equations with velocity changes, treating the drone as a point mass. Heading orientation is added to support the camera-view model, explained in the next paragraph. The initial idea is to make a complete non-linear mathematical model of the drone using simulink, and hence have a nonlinear simulation system. However, this is proven to be very difficult and time consuming, especially in determining the PID gain for its stability, and therefore was dropped. The focus of this simulation program then is only to test the strategy in various obstacle setups. The dynamic non-linear simulation will be conducted using paparazi simulator instead. 
+
+\textbf{Camera-view} is modeled based on the pin-hole camera model, coupled with the specification of the AR-drone front camera. The result can be observed, from a random position of obstacle, in Figure~\ref{f:CameraViewSamples}. Further calibration is conducted to match the result with the sample pictures (Figure~\ref{f:Calibrations}}) taken from zero altitude with a pole positioned 0.5, 1 and 2 meters infront of the camera. The calibrations results in a field of view (rounded) of 44 degree vertically, and 77 degree horizontally, as also shown by the dashed line coming from the front of the drone, in the top-down view Figure~\ref{f:TopViewSamples}. The poles are modeled as straight rectangles with specific width dictated by the randomization of poles, with a constant 2 meters of height. The color of the pole is not considered in the simulation, assuming a perfect detection of pole width. The floor is illustrated using straight lines, from the camera bottom field until the horizon at the bottom edge of the tournament field. The lines are always in the direction of the drone and only served as an illustration.
+
+\begin{figure}
+\includegraphics[width=0.9\linewidthm]{TopViewSamples_3}
+\centering
+\caption{TopViewSamples_3}
+\label{f:TopViewSamples}
+\end{figure} 
+
+\begin{figure}
+\includegraphics[width=0.9\linewidthm]{Calibrations}
+\centering
+\caption{Calibrations}
+\label{f:Calibrations}
+\end{figure} 
+
+\begin{figure}
+\includegraphics[width=0.9\linewidthm]{CameraViewSamples_3}
+\centering
+\caption{CameraViewSamples_3}
+\label{f:CameraViewSamples}
+\end{figure} 
+
+\subsubsection{Strategy Implementation Result}
+The implemented strategy is as described in the previous section, summarized in the flow chart in Figure~\ref{} and Figure~\ref{}. The result is shown in series of frames (time-captured) as can be observed in Figure~\ref{}. The two strategies are tested in a Monte Carlo simulation style, using 1000 random sample of tournament field condition. Table~\ref{} summarized the average of the probability of collision and outbound, as well as the distance covered. It should be noted that the result shown in this report is the best result for the two strategy proposed, after various calibrations of speeds and threshold. 
+
+%Figure
+
+%Table
