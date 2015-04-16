@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  12 APR 2015 00:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  16 APR 2015 02:17
 entering extended mode
 **REPORT.tex
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.tex
@@ -100,64 +100,144 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.sty"
+Package: babel 2014/09/25 3.9l The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.def"
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count94
+\U@D=\dimen105
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count95
+)
+\etb@tempcnta=\count96
+)
+\csq@reset=\count97
+\csq@gtype=\count98
+\csq@glevel=\count99
+\csq@qlevel=\count100
+\csq@maxlvl=\count101
+\csq@tshold=\count102
+\csq@ltx@everypar=\toks18
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+Package csquotes Info: Redefining alias 'english' -> 'english/american'.
+)
+Package csquotes Info: Allocating character ".
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 32.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count94
-\scratchdimen=\dimen105
+\scratchcounter=\count103
+\scratchdimen=\dimen106
 \scratchbox=\box28
-\nofMPsegments=\count95
-\nofMParguments=\count96
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count97
-\MPscratchDim=\dimen106
-\MPnumerator=\count98
-\makeMPintoPDFobject=\count99
-\everyMPtoPDFconversion=\toks19
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen107
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks20
 )
+Package csquotes Info: Making character " active on input line 32.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 28.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 28.
+(Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 28.
-LaTeX Font Info:    Try loading font information for U+wasy on input line 28.
+(Font)              <5> on input line 34.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 34.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
+LaTeX Font Info:    Try loading font information for U+lasy on input line 34.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 34.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 36.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 
 (C:\Users\Seong\Documents\GitHub\MAV-group6\introduction.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\lit_vision.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\our_vision.tex)
+(C:\Users\Seong\Documents\GitHub\MAV-group6\our_vision.tex
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+])
 (C:\Users\Seong\Documents\GitHub\MAV-group6\Seong_fp.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\Peng_fp.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\fp_discussion.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\Yazdi_sim.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\Seong_sim.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\comp_results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
@@ -179,43 +259,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 9.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-
-])
-(C:\Users\Seong\Documents\GitHub\MAV-group6\conclusion.tex)
+) (C:\Users\Seong\Documents\GitHub\MAV-group6\conclusion.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [2
-
-] (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux) ) 
+) [2] (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux) ) 
 Here is how much of TeX's memory you used:
- 1715 strings out of 493705
- 23143 string characters out of 3144569
- 82450 words of memory out of 3000000
- 4997 multiletter control sequences out of 15000+200000
- 18571 words of font info for 41 fonts, out of 3000000 for 9000
+ 3035 strings out of 493705
+ 41452 string characters out of 3144569
+ 119160 words of memory out of 3000000
+ 6280 multiletter control sequences out of 15000+200000
+ 19101 words of font info for 46 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 28i,8n,19p,865b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/Mi
-KTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on REPORT.pdf (2 pages, 96725 bytes).
+ 30i,8n,24p,865b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program File
+s/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on REPORT.pdf (2 pages, 100964 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
