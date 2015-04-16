@@ -10,7 +10,7 @@ In Section \ref{subsec:lit_vision}, a number of the vision-based navigation meth
 
 For these reasons, it was necessary to come up with much simpler vision algorithm which can be implemented and tested easily. The proposed vision algorithm (Figure \ref{own_vision}) uses a simple color thresholding method for the detection of specified obstacles, which is done in the following steps:
 \begin{enumerate}
-	\item Take only the bottommost row of the pixels in the image as input. Note that the floor will be visible until the distance between the drone and an obstacle standing on the floor becomes lower than a certain threshold distance, assuming that the drone moves slowly in a hovering flight at a fixed altitude. For the visualization, refer to Section \ref{section:simulation}.
+	\item Take only the bottommost row of the pixels in the image as input. Note that the floor will be visible until the distance between the drone and an obstacle standing on the floor becomes lower than a certain threshold distance, assuming that the drone moves slowly in a hovering flight at a fixed altitude. For the visualization, refer to Section \ref{subsec:lin_sim}.
 	\item First of all, the drone should avoid the black wall. By setting a intensity (i.e. Y color channel)  threshold, convert the bottommost pixel row into a binary row which has the elements of value 1 and 0 (i.e. 1 if the pixel intensity value is lower than the threshold, and 0 other wise). Therefore, if the image of the black wall is captured at the bottommost row, it will be indicated by the continuous sequence of 1's.
 	\item Count the number of continuous 1's, and if the sequence is longer than a certain threshold, namely the "black wall width-threshold", then mark the position as the position of a black wall. For each mark, give the weight based on the detected width. Determine either to turn left or right, depending on the weighted position of the black wall. 
 	\item If there is no black wall detected (i.e. no continuous sequence of 1's exceeding the "black wall width threshold"), evaluate the Cr chroma value to detect the orange poles. Generate a binary row in the similar manner as for the black wall detection by setting an appropriate Cr threshold. 
@@ -30,5 +30,12 @@ The proposed vision algorithm has the following advantages and disadvantages.\\
 
 \textbf{Advantages}
 \begin{itemize}
-	\item Many tuning parameters are present. This means that it is possible to adjust the system by trial and error in a flexible manner.
+	\item Many tuning parameters are present (e.g. color-thresholds and width-thresholds). This means that it is possible to adjust the system by trial and error in a flexible manner. For example, the color-thresholds can be easily varied and/or combined to detect specific colors of the obstacle, or the width-thresholds can be changed to adjust the stopping distance from the detected obstacle.
+	\item It is possible to test the vision algorithm with static images. This allows the tuning easier as the drone does not necessarily have to move around to detect the obstacles.
+	\item The fact that only the bottommost pixel rows are evaluated makes the computation extremely fast; only 640 pixels are accessed.
+	\item The code for the algorithm is relatively short and simple, which allows for an easy implementation, variation, and debugging.s
+\end{itemize}
+\textbf{Disadvantages}
+\begin{itemize}
+	\item The fact that there are many tuning parameters can be a disadvantage because 
 \end{itemize}
