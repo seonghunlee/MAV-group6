@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  17 APR 2015 00:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  17 APR 2015 01:40
 entering extended mode
 **REPORT.tex
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.tex
@@ -349,17 +349,48 @@ Package pdftex.def Info: Figures/Simulation_10Poles.png used on input line 75.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (C:\Users\Seong\Documents\GitHub\MAV-group6\Seong_sim.tex)
+) (C:\Users\Seong\Documents\GitHub\MAV-group6\Seong_sim.tex
+<Figures/matlab.jpg, id=29, 1124.2pt x 699.50223pt>
+File: Figures/matlab.jpg Graphic file (type jpg)
+ <use Figures/matlab.jpg>
+Package pdftex.def Info: Figures/matlab.jpg used on input line 5.
+(pdftex.def)             Requested size: 252.94499pt x 157.3812pt.
+
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 5--6
+ [][] 
+ []
+
+<Figures/paparazzi_sim.png, id=30, 377.91188pt x 272.51813pt>
+File: Figures/paparazzi_sim.png Graphic file (type png)
+
+<use Figures/paparazzi_sim.png>
+Package pdftex.def Info: Figures/paparazzi_sim.png used on input line 11.
+(pdftex.def)             Requested size: 252.94499pt x 182.40323pt.
+
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
+) [4 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/TopViewSamples_3.png> 
+<C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Calibrations.png> <C:/Users
+/Seong/Documents/GitHub/MAV-group6/Figures/CameraViewSamples_3.png> <C:/Users/S
+eong/Documents/GitHub/MAV-group6/Figures/Simulation_4Poles.png> <C:/Users/Seong
+/Documents/GitHub/MAV-group6/Figures/Simulation_6Poles.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 (C:\Users\Seong\Documents\GitHub\MAV-group6\comp_results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[4 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/TopViewSamples_3.png> <C
-:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Calibrations.png> <C:/Users/S
-eong/Documents/GitHub/MAV-group6/Figures/CameraViewSamples_3.png> <C:/Users/Seo
-ng/Documents/GitHub/MAV-group6/Figures/Simulation_4Poles.png> <C:/Users/Seong/D
-ocuments/GitHub/MAV-group6/Figures/Simulation_6Poles.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Underfull \hbox (badness 2150) in paragraph at lines 3--4
 []\OT1/ptm/m/n/10 During the ac-tual com-pe-ti-tion, the black wall was
  []
@@ -370,33 +401,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (C:\Users\Seong\Documents\GitHub\MAV-group6\conclusion.tex)
+[5 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Simulation_8Poles.png> <
+C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Simulation_10Poles.png> <C:/
+Users/Seong/Documents/GitHub/MAV-group6/Figures/matlab.jpg>])
+(C:\Users\Seong\Documents\GitHub\MAV-group6\conclusion.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [5 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Simulation_8Poles.png>
- <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Simulation_10Poles.png>]
+) [6 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/paparazzi_sim.png>]
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3108 strings out of 493705
- 43169 string characters out of 3144569
- 119180 words of memory out of 3000000
- 6337 multiletter control sequences out of 15000+200000
+ 3121 strings out of 493705
+ 43433 string characters out of 3144569
+ 119198 words of memory out of 3000000
+ 6347 multiletter control sequences out of 15000+200000
  20730 words of font info for 48 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 30i,9n,24p,1178b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,9n,24p,1260b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
@@ -406,9 +436,9 @@ fonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on REPORT.pdf (5 pages, 3133205 bytes).
+Output written on REPORT.pdf (6 pages, 3310311 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
