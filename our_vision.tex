@@ -26,16 +26,6 @@ For these reasons, it was necessary to come up with much simpler vision algorith
 	\label{own_vision}
 \end{figure}
 
-The proposed vision algorithm has the following advantages and disadvantages.\\
+The proposed vision algorithm has the following advantages: first of all, there are many tuning parameters (e.g. color-thresholds and width-thresholds). This means that it is possible to adjust the system by trial and error in a flexible manner. For example, the color-thresholds can be easily varied and/or combined to detect specific colors of the obstacle, or the width-thresholds can be changed to adjust the stopping distance from the detected obstacle. Also, it is possible to test the vision algorithm with static images. This allows the tuning easier as the drone does not necessarily have to move around to detect the obstacles. Moreover, the fact that only the bottommost pixel rows are evaluated makes the computation extremely fast; only 640 pixels are accessed. Last but not least, the algorithm has a practical strength as the code is relatively short and simple, which allows for an easy implementation, variation, and debugging.\\
 
-\textbf{Advantages}
-\begin{itemize}
-	\item Many tuning parameters are present (e.g. color-thresholds and width-thresholds). This means that it is possible to adjust the system by trial and error in a flexible manner. For example, the color-thresholds can be easily varied and/or combined to detect specific colors of the obstacle, or the width-thresholds can be changed to adjust the stopping distance from the detected obstacle.
-	\item It is possible to test the vision algorithm with static images. This allows the tuning easier as the drone does not necessarily have to move around to detect the obstacles.
-	\item The fact that only the bottommost pixel rows are evaluated makes the computation extremely fast; only 640 pixels are accessed.
-	\item The code for the algorithm is relatively short and simple, which allows for an easy implementation, variation, and debugging.s
-\end{itemize}
-\textbf{Disadvantages}
-\begin{itemize}
-	\item The fact that there are many tuning parameters can be a disadvantage because 
-\end{itemize}
+The proposed vision algorithm has the following limitations: first, the collision performance of the drone is largely dependent on the tuning of the parameters due to the high sensitivity. The tuning procedure is thus usually very time-consuming. Also, the drone cannot fly too fast because (1) it should be able to stop well ahead of the obstacle, thereby ensuring a sufficient stopping distance, and (2) it should maintain the bank angle small in order to keep the front camera pointing horizontally forward for the detection of the obstacles ahead. Furthermore, since the proposed vision algorithm yields the control command entirely based on the individual image captured at each frame, it is subject to erroneous obstacle detection caused by the motion blur. Last of all, the biggest limitation of the algorithm would be that it can only work in the Cyberzoo environment with orange poles and black walls as obstacles, and the monochromatic floor and background which have different colors than the obstacles. The algorithm can easily fail if, for example, the floor was painted in a orange or completely black color.
