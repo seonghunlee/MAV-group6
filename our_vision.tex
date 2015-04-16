@@ -8,13 +8,27 @@ In Section \ref{subsec:lit_vision}, a number of the vision-based navigation meth
 	\item As the drone has only one front camera, the mapping techniques, such as SLAM, will take considerably more computational time and memory. This technique does not go along well with the objective of the competition which is to enable the drone travel as much as possible while minimizing the collisions.
 \end{itemize}
 
-For these reasons, it was necessary to come up with much simpler vision algorithm which can be implemented and tested easily. The proposed vision algorithm uses a simple color thresholding method for the detection of specified obstacles, which is done in the following steps:
+For these reasons, it was necessary to come up with much simpler vision algorithm which can be implemented and tested easily. The proposed vision algorithm (Figure \ref{own_vision}) uses a simple color thresholding method for the detection of specified obstacles, which is done in the following steps:
 \begin{enumerate}
 	\item Take only the bottommost row of the pixels in the image as input. Note that the floor will be visible until the distance between the drone and an obstacle standing on the floor becomes lower than a certain threshold distance, assuming that the drone moves slowly in a hovering flight at a fixed altitude. For the visualization, refer to Section \ref{section:simulation}.
-	\item By setting a intensity (i.e. Y color channel)  threshold, convert the bottommost pixel row into a binary row which has the elements of value 1 and 0 (i.e. 1 if the pixel intensity value is lower than the threshold, and 0 other wise). Therefore, if the image of the black wall is captured at the bottommost row, it will be indicated by the continuous sequence of 1's.
+	\item First of all, the drone should avoid the black wall. By setting a intensity (i.e. Y color channel)  threshold, convert the bottommost pixel row into a binary row which has the elements of value 1 and 0 (i.e. 1 if the pixel intensity value is lower than the threshold, and 0 other wise). Therefore, if the image of the black wall is captured at the bottommost row, it will be indicated by the continuous sequence of 1's.
 	\item Count the number of continuous 1's, and if the sequence is longer than a certain threshold, namely the "black wall width-threshold", then mark the position as the position of a black wall. For each mark, give the weight based on the detected width. Determine either to turn left or right, depending on the weighted position of the black wall. 
 	\item If there is no black wall detected (i.e. no continuous sequence of 1's exceeding the "black wall width threshold"), evaluate the Cr chroma value to detect the orange poles. Generate a binary row in the similar manner as for the black wall detection by setting an appropriate Cr threshold. 
 	\item In order to react more quickly and sensitively towards the poles appearing from the sideways, evaluate the left- and right-end of the Cr binary row to see if there is any shorter continuous sequence of 1's appearing from the sides. This necessitates a different type of width-threshold on the sides, namely the "orange pole sideway threshold". If there is no detection of an orange pole on the sides, continue to the next step.
 	\item Using the analogous procedure as for the black wall detection, determine either to turn left or right, depending on the weighted position of the orange pole which can be computed using another width-threshold, namely the "orange pole width-threshold".
 	\item If there is still no detection of the continuous sequence of 1 which exceeds any of the above-mentioned width-thresholds, then yield a command to fly forward.
 \end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.5\textwidth]{Figures/vision.png}
+	\caption{Own Vision algorithm for obstacle detection and avoidance. A to E represent various threshold values}
+	\label{own_vision}
+\end{figure}
+
+The proposed vision algorithm has the following advantages and disadvantages.\\
+
+\textbf{Advantages}
+\begin{itemize}
+	\item Many tuning parameters are present. This means that it is possible to adjust the system by trial and error in a flexible manner.
+\end{itemize}
