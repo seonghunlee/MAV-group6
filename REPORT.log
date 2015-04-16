@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  16 APR 2015 23:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  17 APR 2015 00:09
 entering extended mode
 **REPORT.tex
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.tex
@@ -221,7 +221,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 
 (C:\Users\Seong\Documents\GitHub\MAV-group6\introduction.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\lit_vision.tex)
+(C:\Users\Seong\Documents\GitHub\MAV-group6\lit_vision.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
+)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\our_vision.tex
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
 
@@ -235,7 +238,7 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 
 
 ]
-<Figures/vision.png, id=11, 728.7225pt x 1005.7575pt>
+<Figures/vision.png, id=12, 728.7225pt x 1005.7575pt>
 File: Figures/vision.png Graphic file (type png)
  <use Figures/vision.png>
 Package pdftex.def Info: Figures/vision.png used on input line 24.
@@ -244,6 +247,9 @@ Package pdftex.def Info: Figures/vision.png used on input line 24.
 Overfull \hbox (9.03374pt too wide) in paragraph at lines 24--25
  [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
@@ -255,8 +261,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[2 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/vision.png>]
-<Figures/FP1.png, id=17, 971.12813pt x 633.86812pt>
+
+Underfull \vbox (badness 1466) has occurred while \output is active []
+
+ [2 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/vision.png>]
+<Figures/FP1.png, id=16, 971.12813pt x 633.86812pt>
 File: Figures/FP1.png Graphic file (type png)
  <use Figures/FP1.png>
 Package pdftex.def Info: Figures/FP1.png used on input line 8.
@@ -268,23 +277,25 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 8--9
 
 ) (C:\Users\Seong\Documents\GitHub\MAV-group6\Peng_fp.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\fp_discussion.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\Yazdi_sim.tex [3 <C:/Users/Seong/Do
-cuments/GitHub/MAV-group6/Figures/FP1.png>]
-<Figures/TopViewSamples_3.png, id=21, 700.7781pt x 244.7544pt>
+(C:\Users\Seong\Documents\GitHub\MAV-group6\Yazdi_sim.tex
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+ [3 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/FP1.png>]
+<Figures/TopViewSamples_3.png, id=22, 700.7781pt x 244.7544pt>
 File: Figures/TopViewSamples_3.png Graphic file (type png)
 
 <use Figures/TopViewSamples_3.png>
 Package pdftex.def Info: Figures/TopViewSamples_3.png used on input line 29.
 (pdftex.def)             Requested size: 219.51863pt x 76.66855pt.
 
-<Figures/Calibrations.png, id=22, 724.8681pt x 293.898pt>
+<Figures/Calibrations.png, id=23, 724.8681pt x 293.898pt>
 File: Figures/Calibrations.png Graphic file (type png)
 
 <use Figures/Calibrations.png>
 Package pdftex.def Info: Figures/Calibrations.png used on input line 36.
 (pdftex.def)             Requested size: 219.51863pt x 89.00418pt.
 
-<Figures/CameraViewSamples_3.png, id=23, 708.9687pt x 146.4672pt>
+<Figures/CameraViewSamples_3.png, id=24, 708.9687pt x 146.4672pt>
 File: Figures/CameraViewSamples_3.png Graphic file (type png)
 
 <use Figures/CameraViewSamples_3.png>
@@ -304,27 +315,21 @@ LaTeX Warning: Reference `' on page 4 undefined on input line 50.
 
 LaTeX Warning: Reference `' on page 4 undefined on input line 50.
 
-<Figures/Simulation_4Poles.png, id=24, 607.51968pt x 601.4972pt>
+<Figures/Simulation_4Poles.png, id=25, 607.51968pt x 601.4972pt>
 File: Figures/Simulation_4Poles.png Graphic file (type png)
 
 <use Figures/Simulation_4Poles.png>
 Package pdftex.def Info: Figures/Simulation_4Poles.png used on input line 54.
 (pdftex.def)             Requested size: 195.12975pt x 193.18974pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Simulation_6Poles.png, id=25, 627.09282pt x 609.02531pt>
+<Figures/Simulation_6Poles.png, id=26, 627.09282pt x 609.02531pt>
 File: Figures/Simulation_6Poles.png Graphic file (type png)
 
 <use Figures/Simulation_6Poles.png>
 Package pdftex.def Info: Figures/Simulation_6Poles.png used on input line 61.
 (pdftex.def)             Requested size: 195.12975pt x 189.51144pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Simulation_8Poles.png, id=26, 627.09282pt x 598.48593pt>
+<Figures/Simulation_8Poles.png, id=27, 627.09282pt x 598.48593pt>
 File: Figures/Simulation_8Poles.png Graphic file (type png)
 
 <use Figures/Simulation_8Poles.png>
@@ -334,7 +339,7 @@ Package pdftex.def Info: Figures/Simulation_8Poles.png used on input line 68.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/Simulation_10Poles.png, id=27, 580.41844pt x 578.91281pt>
+<Figures/Simulation_10Poles.png, id=28, 580.41844pt x 578.91281pt>
 File: Figures/Simulation_10Poles.png Graphic file (type png)
 
 <use Figures/Simulation_10Poles.png>
@@ -365,6 +370,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
  []
 
 
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -382,24 +390,25 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3104 strings out of 493705
- 43124 string characters out of 3144569
- 119200 words of memory out of 3000000
- 6335 multiletter control sequences out of 15000+200000
- 19101 words of font info for 46 fonts, out of 3000000 for 9000
+ 3108 strings out of 493705
+ 43169 string characters out of 3144569
+ 119180 words of memory out of 3000000
+ 6337 multiletter control sequences out of 15000+200000
+ 20730 words of font info for 48 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 30i,9n,24p,1178b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,9n,24p,1178b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on REPORT.pdf (5 pages, 3121934 bytes).
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/urw/times/utmri8a.pfb>
+Output written on REPORT.pdf (5 pages, 3133205 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
