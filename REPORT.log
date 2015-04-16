@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  16 APR 2015 23:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  16 APR 2015 23:50
 entering extended mode
 **REPORT.tex
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.tex
@@ -268,22 +268,23 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 8--9
 
 ) (C:\Users\Seong\Documents\GitHub\MAV-group6\Peng_fp.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\fp_discussion.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\Yazdi_sim.tex
-<Figures/TopViewSamples_3.png, id=18, 700.7781pt x 244.7544pt>
+(C:\Users\Seong\Documents\GitHub\MAV-group6\Yazdi_sim.tex [3 <C:/Users/Seong/Do
+cuments/GitHub/MAV-group6/Figures/FP1.png>]
+<Figures/TopViewSamples_3.png, id=21, 700.7781pt x 244.7544pt>
 File: Figures/TopViewSamples_3.png Graphic file (type png)
 
 <use Figures/TopViewSamples_3.png>
 Package pdftex.def Info: Figures/TopViewSamples_3.png used on input line 29.
 (pdftex.def)             Requested size: 219.51863pt x 76.66855pt.
 
-<Figures/Calibrations.png, id=19, 724.8681pt x 293.898pt>
+<Figures/Calibrations.png, id=22, 724.8681pt x 293.898pt>
 File: Figures/Calibrations.png Graphic file (type png)
 
 <use Figures/Calibrations.png>
 Package pdftex.def Info: Figures/Calibrations.png used on input line 36.
 (pdftex.def)             Requested size: 219.51863pt x 89.00418pt.
 
-<Figures/CameraViewSamples_3.png, id=20, 708.9687pt x 146.4672pt>
+<Figures/CameraViewSamples_3.png, id=23, 708.9687pt x 146.4672pt>
 File: Figures/CameraViewSamples_3.png Graphic file (type png)
 
 <use Figures/CameraViewSamples_3.png>
@@ -292,21 +293,17 @@ Package pdftex.def Info: Figures/CameraViewSamples_3.png used on input line 43.
 (pdftex.def)             Requested size: 219.51863pt x 45.35071pt.
 
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 50.
+LaTeX Warning: Reference `' on page 4 undefined on input line 50.
 
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 50.
+LaTeX Warning: Reference `' on page 4 undefined on input line 50.
 
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 50.
+LaTeX Warning: Reference `' on page 4 undefined on input line 50.
 
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 50.
+LaTeX Warning: Reference `' on page 4 undefined on input line 50.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/FP1.png>]
 <Figures/Simulation_4Poles.png, id=24, 607.51968pt x 601.4972pt>
 File: Figures/Simulation_4Poles.png Graphic file (type png)
 
@@ -353,7 +350,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-
+[4 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/TopViewSamples_3.png> <C
+:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Calibrations.png> <C:/Users/S
+eong/Documents/GitHub/MAV-group6/Figures/CameraViewSamples_3.png> <C:/Users/Seo
+ng/Documents/GitHub/MAV-group6/Figures/Simulation_4Poles.png> <C:/Users/Seong/D
+ocuments/GitHub/MAV-group6/Figures/Simulation_6Poles.png>]
 Underfull \hbox (badness 2150) in paragraph at lines 3--4
 []\OT1/ptm/m/n/10 During the ac-tual com-pe-ti-tion, the black wall was
  []
@@ -363,11 +364,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[4 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/TopViewSamples_3.png> <C
-:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Calibrations.png> <C:/Users/S
-eong/Documents/GitHub/MAV-group6/Figures/CameraViewSamples_3.png> <C:/Users/Seo
-ng/Documents/GitHub/MAV-group6/Figures/Simulation_4Poles.png> <C:/Users/Seong/D
-ocuments/GitHub/MAV-group6/Figures/Simulation_6Poles.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -400,7 +397,7 @@ ublic/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on REPORT.pdf (5 pages, 3120981 bytes).
+Output written on REPORT.pdf (5 pages, 3121934 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
