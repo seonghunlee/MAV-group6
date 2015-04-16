@@ -1,13 +1,22 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  16 APR 2015 03:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.5)  16 APR 2015 14:51
 entering extended mode
 **REPORT.tex
-(C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\REPORT.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(D:\MikTex\tex\latex\base\article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(D:\MikTex\tex\latex\base\size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -21,37 +30,37 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\Seong\Documents\GitHub\MAV-group6\imav.sty
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\imav.sty
 \titlebox=\skip43
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+(D:\MikTex\tex\latex\psnfss\times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(D:\MikTex\tex\latex\graphics\graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+(D:\MikTex\tex\latex\graphics\keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(D:\MikTex\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(D:\MikTex\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+(D:\MikTex\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(D:\MikTex\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(D:\MikTex\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(D:\MikTex\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -59,25 +68,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+(D:\MikTex\tex\latex\algorithms\algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+(D:\MikTex\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count88
 \float@exts=\toks15
 \float@box=\box26
 \@float@everytoks=\toks16
 \@floatcapt=\box27
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (D:\MikTex\tex\latex\base\ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks17
 \c@algorithm=\count89
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+(D:\MikTex\tex\latex\algorithms\algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count90
 \c@ALC@line=\count91
@@ -86,54 +94,49 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip44
 \algorithmicindent=\skip45
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\wasysym.sty"
+(D:\MikTex\tex\latex\wasysym\wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
 \symwasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(D:\MikTex\tex\latex\graphics\color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+ (D:\MikTex\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 137.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package color Info: Driver file: pdftex.def on input line 130.
+) (D:\MikTex\tex\latex\base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.sty"
-Package: babel 2014/09/25 3.9l The Babel package
+(D:\MikTex\tex\generic\babel\babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+(D:\MikTex\tex\latex\00miktex\bblopts.cfg
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
-Language: english 2012/08/20 v3.3p English support from the babel system
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.def"
-File: babel.def 2014/09/25 3.9l Babel common definitions
+(D:\MikTex\tex\generic\babel\english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+ (D:\MikTex\tex\generic\babel\babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count94
 \U@D=\dimen105
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
+)) (D:\MikTex\tex\latex\csquotes\csquotes.sty
 Package: csquotes 2011/10/22 v5.1d context-sensitive quotations
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+(D:\MikTex\tex\latex\etoolbox\etoolbox.sty
+Package: etoolbox 2015/03/19 v2.1d e-TeX tools for LaTeX (JAW)
+ (D:\MikTex\tex\latex\misc\etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count95
 )
@@ -146,14 +149,13 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \csq@maxlvl=\count101
 \csq@tshold=\count102
 \csq@ltx@everypar=\toks18
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
+(D:\MikTex\tex\latex\csquotes\csquotes.def
 File: csquotes.def 2011/10/22 v5.1d csquotes generic definitions
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+(D:\MikTex\tex\latex\csquotes\csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
@@ -163,7 +165,7 @@ Package csquotes Info: Allocating character ".
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-(C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\REPORT.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
@@ -178,10 +180,10 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 32.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+(D:\MikTex\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(D:\MikTex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen106
@@ -203,12 +205,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 34.
 LaTeX Font Info:    Try loading font information for U+wasy on input line 34.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
+ (D:\MikTex\tex\latex\wasysym\uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 34.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+ (D:\MikTex\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -220,17 +221,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 
-(C:\Users\Seong\Documents\GitHub\MAV-group6\introduction.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\lit_vision.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\our_vision.tex
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\introduction.tex)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\lit_vision.tex)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\our_vision.tex
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+(D:\MikTex\tex\latex\psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+ [1{C:/Users/yyazdiibrahimj/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 
@@ -250,16 +251,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-) (C:\Users\Seong\Documents\GitHub\MAV-group6\Seong_fp.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\Peng_fp.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\fp_discussion.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\Seong_sim.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\comp_results.tex
+) (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\Seong_fp.tex)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\Peng_fp.tex)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\fp_discussion.tex)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\Yazdi_sim.tex
+[2 <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Figures/vision.
+png>] <Figures/TopViewSamples_3.png, id=15, 700.7781pt x 244.7544pt>
+File: Figures/TopViewSamples_3.png Graphic file (type png)
+
+<use Figures/TopViewSamples_3.png>
+Package pdftex.def Info: Figures/TopViewSamples_3.png used on input line 28.
+(pdftex.def)             Requested size: 219.51863pt x 76.66855pt.
+
+<Figures/Calibrations.png, id=16, 724.8681pt x 293.898pt>
+File: Figures/Calibrations.png Graphic file (type png)
+
+<use Figures/Calibrations.png>
+Package pdftex.def Info: Figures/Calibrations.png used on input line 35.
+(pdftex.def)             Requested size: 219.51863pt x 89.00418pt.
+
+<Figures/CameraViewSamples_3.png, id=17, 708.9687pt x 146.4672pt>
+File: Figures/CameraViewSamples_3.png Graphic file (type png)
+
+<use Figures/CameraViewSamples_3.png>
+Package pdftex.def Info: Figures/CameraViewSamples_3.png used on input line 42.
+
+(pdftex.def)             Requested size: 219.51863pt x 45.35071pt.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 49.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 49.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 49.
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 49.
+
+<Figures/Simulation_4Poles.png, id=18, 607.51968pt x 601.4972pt>
+File: Figures/Simulation_4Poles.png Graphic file (type png)
+
+<use Figures/Simulation_4Poles.png>
+Package pdftex.def Info: Figures/Simulation_4Poles.png used on input line 53.
+(pdftex.def)             Requested size: 195.12975pt x 193.18974pt.
+
+<Figures/Simulation_6Poles.png, id=19, 627.09282pt x 609.02531pt>
+File: Figures/Simulation_6Poles.png Graphic file (type png)
+
+<use Figures/Simulation_6Poles.png>
+Package pdftex.def Info: Figures/Simulation_6Poles.png used on input line 60.
+(pdftex.def)             Requested size: 195.12975pt x 189.51144pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Simulation_8Poles.png, id=20, 627.09282pt x 598.48593pt>
+File: Figures/Simulation_8Poles.png Graphic file (type png)
+
+<use Figures/Simulation_8Poles.png>
+Package pdftex.def Info: Figures/Simulation_8Poles.png used on input line 67.
+(pdftex.def)             Requested size: 195.12975pt x 186.23189pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/Simulation_10Poles.png, id=21, 580.41844pt x 578.91281pt>
+File: Figures/Simulation_10Poles.png Graphic file (type png)
+
+<use Figures/Simulation_10Poles.png>
+Package pdftex.def Info: Figures/Simulation_10Poles.png used on input line 74.
+(pdftex.def)             Requested size: 195.12975pt x 194.61937pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\Seong_sim.tex)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\comp_results.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-
+[3 <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Figures/TopView
+Samples_3.png> <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Fig
+ures/Calibrations.png> <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-gr
+oup6/Figures/CameraViewSamples_3.png> <D:/Yazdies/ResearchS3/Kuliah/AutonomousF
+lightMAV/MAV-group6/Figures/Simulation_4Poles.png>]
 Underfull \hbox (badness 2150) in paragraph at lines 3--4
 []\OT1/ptm/m/n/10 During the ac-tual com-pe-ti-tion, the black wall was
  []
@@ -274,35 +352,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[2 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/vision.png>])
-(C:\Users\Seong\Documents\GitHub\MAV-group6\conclusion.tex)
-(C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.bbl
+[4 <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Figures/Simulat
+ion_6Poles.png> <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Fi
+gures/Simulation_8Poles.png> <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/
+MAV-group6/Figures/Simulation_10Poles.png>])
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\conclusion.tex)
+(D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\REPORT.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [3
+) [5
 
-] (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux) ) 
+] (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\REPORT.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3045 strings out of 493705
- 41602 string characters out of 3144569
- 118168 words of memory out of 3000000
- 6287 multiletter control sequences out of 15000+200000
+ 2997 strings out of 493921
+ 40673 string characters out of 3154534
+ 109512 words of memory out of 3000000
+ 6202 multiletter control sequences out of 15000+200000
  19101 words of font info for 46 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 30i,8n,24p,865b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/Mi
-KTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on REPORT.pdf (3 pages, 163280 bytes).
+ 841 hyphenation exceptions out of 8191
+ 30i,9n,24p,1178b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+{D:/MikTex/fonts/enc/dvips/fontname/8r.enc}<D:/MikTex/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/MikTe
+x/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/MikTex/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex
+/fonts/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmr8a.pfb><
+D:/MikTex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on REPORT.pdf (5 pages, 3091462 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
