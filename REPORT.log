@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.21)  16 APR 2015 23:16
+=======
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.1.21)  16 APR 2015 23:38
+>>>>>>> Stashed changes
 entering extended mode
 **REPORT.tex
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.tex
@@ -246,10 +250,10 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 24--25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
 
+<<<<<<< Updated upstream
 ) (C:\Users\Seong\Documents\GitHub\MAV-group6\Seong_fp.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -290,6 +294,19 @@ File: Figures/CameraViewSamples_3.png Graphic file (type png)
 Package pdftex.def Info: Figures/CameraViewSamples_3.png used on input line 43.
 
 (pdftex.def)             Requested size: 219.51863pt x 45.35071pt.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+) [2] (./Seong_fp.tex) (./Peng_fp.tex) (./fp_discussion.tex) (./Yazdi_sim.tex
+File: Figures/TopViewSamples_3.png Graphic file (type QTm)
+
+<use  "Figures/TopViewSamples_3.png" >
+File: Figures/Calibrations.png Graphic file (type QTm)
+ <use  "Figures/Calibrations.png" >
+File: Figures/CameraViewSamples_3.png Graphic file (type QTm)
+>>>>>>> Stashed changes
 
 
 LaTeX Warning: Reference `' on page 3 undefined on input line 50.
@@ -303,6 +320,7 @@ LaTeX Warning: Reference `' on page 3 undefined on input line 50.
 
 LaTeX Warning: Reference `' on page 3 undefined on input line 50.
 
+<<<<<<< Updated upstream
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -314,6 +332,11 @@ File: Figures/Simulation_4Poles.png Graphic file (type png)
 Package pdftex.def Info: Figures/Simulation_4Poles.png used on input line 54.
 (pdftex.def)             Requested size: 195.12975pt x 193.18974pt.
 
+=======
+[3]
+File: Figures/Simulation_4Poles.png Graphic file (type QTm)
+ <use  "Figures/Simulation_4Poles.png" >
+>>>>>>> Stashed changes
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -372,6 +395,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
+<<<<<<< Updated upstream
 ) (C:\Users\Seong\Documents\GitHub\MAV-group6\conclusion.tex)
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.bbl
 
@@ -380,8 +404,18 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 ) [5 <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Simulation_8Poles.png>
  <C:/Users/Seong/Documents/GitHub/MAV-group6/Figures/Simulation_10Poles.png>]
 (C:\Users\Seong\Documents\GitHub\MAV-group6\REPORT.aux)
+=======
+[4]) (./conclusion.tex) (./REPORT.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [5] (./REPORT.aux)
+>>>>>>> Stashed changes
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
