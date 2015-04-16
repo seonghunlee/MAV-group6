@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.1.21)  16 APR 2015 23:51
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.1.21)  17 APR 2015 01:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -200,7 +200,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 
-(./introduction.tex) (./lit_vision.tex) (./our_vision.tex
+(./introduction.tex) (./lit_vision.tex
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
+) (./our_vision.tex
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 5.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -221,29 +224,26 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 24--25
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-) [2] (./Seong_fp.tex
+) (./Seong_fp.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
+[2]
 File: Figures/FP1.png Graphic file (type QTm)
-<use  "Figures/FP1.png" >
+ <use  "Figures/FP1.png" >
 Overfull \hbox (9.03374pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-) (./Peng_fp.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(./fp_discussion.tex) (./Yazdi_sim.tex [3]
+) (./Peng_fp.tex) (./fp_discussion.tex) (./Yazdi_sim.tex [3]
 File: Figures/TopViewSamples_3.png Graphic file (type QTm)
 
 <use  "Figures/TopViewSamples_3.png" >
@@ -264,15 +264,17 @@ LaTeX Warning: Reference `' on page 4 undefined on input line 50.
 
 LaTeX Warning: Reference `' on page 4 undefined on input line 50.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: Figures/Simulation_4Poles.png Graphic file (type QTm)
+
 <use  "Figures/Simulation_4Poles.png" >
 File: Figures/Simulation_6Poles.png Graphic file (type QTm)
 
 <use  "Figures/Simulation_6Poles.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: Figures/Simulation_8Poles.png Graphic file (type QTm)
+
 <use  "Figures/Simulation_8Poles.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -287,10 +289,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-
-Underfull \vbox (badness 2644) has occurred while \output is active []
-
- [4]
+[4]
 Underfull \hbox (badness 2150) in paragraph at lines 3--4
 []\OT1/ptm/m/n/10 During the ac-tual com-pe-ti-tion, the black wall was
  []
@@ -305,27 +304,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[5]) (./conclusion.tex) (./REPORT.bbl
+) (./conclusion.tex) (./REPORT.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [6
+) [5] [6
 
 ] (./REPORT.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 2533 strings out of 493734
- 33976 string characters out of 6146348
- 109348 words of memory out of 5000000
- 5785 multiletter control sequences out of 15000+600000
- 12488 words of font info for 40 fonts, out of 8000000 for 9000
+ 2536 strings out of 493734
+ 34014 string characters out of 6146348
+ 109328 words of memory out of 5000000
+ 5787 multiletter control sequences out of 15000+600000
+ 13021 words of font info for 41 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 30i,9n,24p,1178b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,9n,24p,1178b,220s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on REPORT.pdf (6 pages).
