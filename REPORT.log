@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.1.21)  17 APR 2015 22:54
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.1.21)  17 APR 2015 23:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -217,9 +217,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
 
-Underfull \hbox (badness 1281) in paragraph at lines 38--39
-[]\OT1/ptm/b/n/10 B\OT1/ptm/m/n/10 efore in-tro-duc-ing the es-sen-tial el-e-me
-nts of
+Underfull \hbox (badness 2856) in paragraph at lines 38--39
+[]\OT1/ptm/b/n/10 I\OT1/ptm/m/n/10 n pur-suit of achiev-ing a vision-based au-
  []
 
 (./introduction.tex
@@ -231,21 +230,29 @@ File: Figures/TheDrone.png Graphic file (type QTm)
 
 
 ]
-Underfull \hbox (badness 2837) in paragraph at lines 20--21
+Underfull \hbox (badness 2837) in paragraph at lines 18--19
 []\OT1/ptm/m/n/10 The Guid-ance, Nav-i-ga-tion, and Con-trol sys-tem of
  []
 
 File: Figures/TheCyberZoo.png Graphic file (type QTm)
 <use  "Figures/TheCyberZoo.png" >
-File: Figures/OptiTrackCyberZoo.png Graphic file (type QTm)
- <use  "Figures/OptiTrackCyberZoo.png" >
-File: Figures/Markers.png Graphic file (type QTm)
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Figures/OptiTrackCyberZoo.png Graphic file (type QTm)
+<use  "Figures/OptiTrackCyberZoo.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Figures/Markers.png Graphic file (type QTm)
 <use  "Figures/Markers.png" >
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2]) (./lit_vision.tex
+) (./lit_vision.tex
+Underfull \vbox (badness 3428) has occurred while \output is active []
+
+ [2]
 
 LaTeX Warning: Citation `Gibson' on page 3 undefined on input line 9.
 
@@ -255,11 +262,8 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
-
-
-LaTeX Warning: Citation `pedro' on page 3 undefined on input line 20.
-
-[3]) (./our_vision.tex
+)
+(./our_vision.tex [3]
 File: Figures/vision.png Graphic file (type QTm)
  <use  "Figures/vision.png" >
 Overfull \hbox (9.03374pt too wide) in paragraph at lines 24--25
@@ -267,51 +271,46 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 24--25
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[4])
-Underfull \vbox (badness 1354) has occurred while \output is active []
-
-
-(./Seong_fp.tex
+[4]) (./Seong_fp.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
 File: Figures/FP1.png Graphic file (type QTm)
 <use  "Figures/FP1.png" >
-Overfull \hbox (9.03374pt too wide) in paragraph at lines 8--9
+Overfull \hbox (9.03374pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-) (./Peng_fp.tex
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-Package acronym Info: Label `acro:UAV' newly defined as it shall be overridden
-although it is yet undefined on input line 16.
-File: Figures/fp.pdf Graphic file (type QTm)
 
-<use  "Figures/fp.pdf" >) (./fp_discussion.tex) (./Yazdi_sim.tex [6]
+(./Yazdi_sim.tex [5]
 File: Figures/TopViewSamples_3.png Graphic file (type QTm)
+ <use  "Figures/TopViewSamples_3.png" >
 
-<use  "Figures/TopViewSamples_3.png" >
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: Figures/CameraViewSamples_3.png Graphic file (type QTm)
-
 <use  "Figures/CameraViewSamples_3.png" >
-File: Figures/Calibrations.png Graphic file (type QTm)
- <use  "Figures/Calibrations.png" >
-[7]
-File: Figures/Simulation_8Poles.png Graphic file (type QTm)
- <use  "Figures/Simulation_8Poles.png" >) (./Seong_sim.tex
-File: Figures/matlab.jpg Graphic file (type QTm)
 
-<use  "Figures/matlab.jpg" >
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: Figures/Calibrations.png Graphic file (type QTm)
+<use  "Figures/Calibrations.png" >
+File: Figures/Simulation_8Poles.png Graphic file (type QTm)
+ <use  "Figures/Simulation_8Poles.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Seong_sim.tex
+File: Figures/matlab.jpg Graphic file (type QTm)
+ <use  "Figures/matlab.jpg" >
 Overfull \hbox (9.03374pt too wide) in paragraph at lines 5--6
  [][] 
  []
@@ -322,7 +321,7 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-)
+) [6]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -333,9 +332,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
-
-
-Underfull \vbox (badness 1314) has occurred while \output is active []
 
 
 Underfull \hbox (badness 2150) in paragraph at lines 3--4
@@ -352,37 +348,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[8]) (./conclusion.tex) (./REPORT.bbl
-Missing character: There is no ̀ in font ptmr7t!
-Missing character: There is no ̧ in font ptmr7t!
+[7]) (./conclusion.tex) (./REPORT.bbl
+Underfull \hbox (badness 5563) in paragraph at lines 4--8
+[]\OT1/ptm/m/n/10 David Vissi[]ere Nico-las Pe-tit Pierre-Jean Bris-teau,
+ []
+
 
 Underfull \hbox (badness 1077) in paragraph at lines 10--16
 []\OT1/ptm/m/n/10 J. Pes-tana, I. Mellado-Bataller, Changhong Fu, J.L.
  []
 
-Missing character: There is no é in font ptmr7t!
-Missing character: There is no é in font ptmr7t!
-Missing character: There is no á in font ptmr7t!
-Missing character: There is no í in font ptmr7t!
-Missing character: There is no é in font ptmr7t!
-Missing character: There is no Ó in font ptmr7t!
-[9]) [10
 
-] (./REPORT.aux)
+Underfull \hbox (badness 2573) in paragraph at lines 45--49
+[]\OT1/ptm/m/n/10 Joachim Reuder, Mar-iusO. Jonassen, and Har-al-dur
+ []
+
+) [8] (./REPORT.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 3035 strings out of 493734
- 40977 string characters out of 6146348
- 120360 words of memory out of 5000000
- 6268 multiletter control sequences out of 15000+600000
+ 3026 strings out of 493734
+ 40871 string characters out of 6146348
+ 119360 words of memory out of 5000000
+ 6266 multiletter control sequences out of 15000+600000
  13021 words of font info for 41 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 30i,9n,24p,1319b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,9n,24p,1260b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on REPORT.pdf (10 pages).
+Output written on REPORT.pdf (8 pages).

@@ -35,7 +35,7 @@
 \maketitle
 
 \begin{abstract}
-Before introducing the essential elements of successful vision-based obstacle avoidance the project and equipment are discussed. Using an AR Drone 2.0 and its HD front camera obstacles should be avoided in the TU Delft Cyber Zoo in a certain time frame without any human intervention; at the end of this quarter a competition will be done to see how well the drone will perform. The flight plan and airframe will be programmed beforehand using Paparazzi on a computer that is connected to the drone. Vision input and processing could be a demanding process for the drone and should be done efficiently. Literature on optic flow and computer vision methods is provided but should be adapted to fulfill the requirements of the project, i.e. image processing should be done wisely and iterations should be limited for the drone to react quickly. Next to the vision part, the case of flight plans with moving waypoints and fixed waypoints are discussed. Before the actual flight test was done a simulation program was developed in MATLAB for random obstacle placements and to test the vision algorithm. The actual flight in the competition showed satisfying results with no collisions and stable avoidance maneuvers but recommendations are given to optimize the avoidance system for the future.
+In pursuit of achieving a vision-based autonomous flgiht of AR Drone 2.0 in the Cyberzoo environment with OptiTrack system, a simple obstacle detection algorithm which involves the color- and size-thresholding of the obstacles, and a flight plan which actively and continuously moves the outer-loop waypoints is proposed, simulated and implemented for the real-life test. The actual flight in the competition showed satisfying results with hardly no collisions and stable avoidance maneuvers, but recommendations are given to optimize the flight plan for the larger coverage.
 \end{abstract}
 
 \section{Introduction} \label{section:introduction}
@@ -48,8 +48,8 @@ Before introducing the essential elements of successful vision-based obstacle av
 
 \section{Flight plan}
 \input{Seong_fp}
-\input{Peng_fp}
-\input{fp_discussion}
+%\input{Peng_fp}
+%\input{fp_discussion}
 
 \section{Simulation}
 \label{section:simulation}

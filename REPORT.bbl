@@ -1,7 +1,7 @@
 \begin{thebibliography}{1}
 
 \bibitem{Bristeau:11}
-David Vissière Nicolas~Petit Pierre-Jean~Bristeau, François~Callou.
+David Vissi{\`e}re Nicolas~Petit Pierre-Jean~Bristeau, Fran{\c c}ois~Callou.
 \newblock The navigation and control technology inside the ar.drone micro uav.
 \newblock In {\em 18th IFAC World Congress}, pages 1477--1484, Milano, Italy,
   2011.
@@ -15,7 +15,7 @@ J.~Pestana, I.~Mellado-Bataller, Changhong Fu, J.L. Sanchez-Lopez, I.F.
   Conference on}, pages 557--564, May 2013.
 
 \bibitem{Lugo:14}
-Jacobo Jiménez~Lugo and Andreas Zell.
+Jacobo Jim{\'e}nez~Lugo and Andreas Zell.
 \newblock Framework for autonomous on-board navigation with the ar.drone.
 \newblock {\em Journal of Intelligent and Robotic Systems}, 73(1-4):401--412,
   2014.
@@ -34,15 +34,15 @@ Clint Hansen, David Gibas, Jean-Louis Honeine, Nasser Rezzoug, Philippe Gorce,
   Journal of Sports Engineering and Technology}, 228(3):165--170, 2014.
 
 \bibitem{Guadarrama-Olvera:14}
-J.Rogelio Guadarrama-Olvera, JoséJ. Corona-Sánchez, and
-  H.~Rodríguez-Cortés.
+J.Rogelio Guadarrama-Olvera, Jos{\'e}J. Corona-S{\'a}nchez, and
+  H.~Rodr{\'\i}guez-Cort{\'e}s.
 \newblock Hard real-time implementation of a nonlinear controller for the
   quadrotor helicopter.
 \newblock {\em Journal of Intelligent and Robotic Systems}, 73(1-4):81--97,
   2014.
 
 \bibitem{Reuder:12}
-Joachim Reuder, MariusO. Jonassen, and Haraldur Ólafsson.
+Joachim Reuder, MariusO. Jonassen, and Haraldur {\'O}lafsson.
 \newblock The small unmanned meteorological observer sumo: Recent developments
   and applications of a micro-uas for atmospheric boundary layer research.
 \newblock {\em Acta Geophysica}, 60(5):1454--1473, 2012.
@@ -54,5 +54,11 @@ Pablo Royo, Enric Pastor, Cristina Barrado, Eduard Santamaria, Juan Lopez,
   unmanned aircraft system applications.
 \newblock {\em Journal of Aerospace Computing, Information, and Communication},
   8(7):197--223, 2011.
+
+\bibitem{pedro}
+Pedro~F. Felzenszwalb.
+\newblock Efficient graph-based image segmentation.
+\newblock {\em International Journal of Computer Vision, Vol. 59, No. 2,
+  September 2004}, 2004.
 
 \end{thebibliography}

@@ -2,6 +2,6 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: REPORT.aux
 The style file: unsrt.bst
 Database file #1: imav_bibliography.bib
 Warning--I didn't find a database entry for "Gibson"
-Too many commas in name 1 of "Pierre-Jean Bristeau, François Callou, David Vissière, Nicolas Petit" for entry Bristeau:11
+Too many commas in name 1 of "Pierre-Jean Bristeau, Fran{\c c}ois Callou, David Vissi{\`e}re, Nicolas Petit" for entry Bristeau:11
 while executing---line 944 of file unsrt.bst
 (There was 1 error message)
