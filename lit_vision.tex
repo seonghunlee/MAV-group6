@@ -1,6 +1,6 @@
 \subsection{Vision-based Navigation Literature}
 \label{subsec:lit_vision}
-\textcolor{red}{Here we talk about the vision algorithm used in the literature}
+\textcolor{red}{This section is about the vision algorithm used in the literature.}
 
 \subsubsection{Optic Flow}
 
@@ -15,8 +15,14 @@ Determining optical flow from two images:
 \end{itemize}
 
 \subsubsection{Computer Vision}
-We start this section with two views concerning computer vision: David Marr's view is that the goal of the visual system is to invert the imaging process and the third dimension is added using the perceptual information provided by the eyes. On the other hand, American psychologist James Gibson stated that perception alone is enough to make sense of the world in a direct way. Processing is unnecessary because the perceived elements are detailed enough for us to interact directly with the environment. \textcolor{red}{The second approach will be used to create the collision avoidance algorithm since this approach requires less computing time; more details on the choice of this approach will be given throughout the paper}.
+We start this section with two views concerning computer vision: David Marr's view is that the goal of the visual system is to invert the imaging process and the third dimension is added using the perceptual information provided by the eyes. On the other hand, American psychologist James Gibson stated that perception alone is enough to make sense of the world in a direct way. Processing is unnecessary because the perceived elements are detailed enough for us to interact directly with the environment. \textcolor{red}{The second approach will be used to create the collision avoidance algorithm since this approach suits the project requirements and is less demanding for the data processing}.
 
-\textbf{Segmentation} is a method that is used for image processing, digital images are partitioned into multiple segments to extract the essential characteristics. It is still challenging since the wide range of image styles influences the difficulty of the process. Therefore two properties need to be defined for segmentation methods: 1. capture the important regions, because this often reflects the global aspects of the image. 2. be efficient, running in time nearly linear in the number of image pixels.
+\textbf{Segmentation}\cite{pedro} is a method that is used for image processing, digital images are partitioned into multiple segments to extract the essential characteristics. It is still challenging since the wide range of image styles influences the difficulty of the process. Therefore two properties need to be defined for segmentation methods: 1. capture the important regions, because this often reflects the global aspects of the image. 2. be efficient, running in time nearly linear in the number of image pixels. Basically each pixel is analyzed and the edges connect certain pairs of neighboring pixels. Based on the properties of the pixels a weight is assigned to the edges to distinguish different elements in an image.
+
+As for the \textbf{color} scheme, the YUV color encoding scheme is used. This scheme assigns both brightness and color values to each pixel. The 'Y' represents the brightness ('luma' value) and 'UV' represents the color ('chroma' values); each Y, U and V value comprises 8 bytes of data. 
+\textcolor{red}{As for the \textbf{color} scheme, the YCbCr color encoding scheme is used. The 'Y' represents the brightness ('luma' value) and the Cb and Cr represent the blue-difference and red-difference chroma components.}
+It was explained in Section \ref{subsec:lit_vision} that a single image should be used from the front camera and avoidance should be based on this data alone. A certain threshold for the avoidance objects should be defined such that the drone can perform avoidance efficiently.
+
+
 \subsubsection{Mapping} SLAM
 
