@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.5)  17 APR 2015 11:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.5)  17 APR 2015 12:57
 entering extended mode
 **REPORT.tex
 (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\REPORT.tex
@@ -433,14 +433,16 @@ Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no ­ in font ptmr7t!
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
 ) [8
 
 ] (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\REPORT.aux) ) 
 Here is how much of TeX's memory you used:
- 3032 strings out of 493921
- 41190 string characters out of 3154534
- 110465 words of memory out of 3000000
- 6230 multiletter control sequences out of 15000+200000
+ 3034 strings out of 493921
+ 41210 string characters out of 3154534
+ 110473 words of memory out of 3000000
+ 6232 multiletter control sequences out of 15000+200000
  20730 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  30i,9n,24p,1260b,250s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -452,7 +454,7 @@ m/cmsy6.pfb><D:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/MikTex/font
 s/type1/urw/times/utmb8a.pfb><D:/MikTex/fonts/type1/urw/times/utmbi8a.pfb><D:/M
 ikTex/fonts/type1/urw/times/utmr8a.pfb><D:/MikTex/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on REPORT.pdf (8 pages, 10051874 bytes).
+Output written on REPORT.pdf (8 pages, 10052764 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

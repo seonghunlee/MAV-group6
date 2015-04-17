@@ -41,4 +41,18 @@ J.Rogelio Guadarrama-Olvera, JoséJ. Corona-Sánchez, and
 \newblock {\em Journal of Intelligent and Robotic Systems}, 73(1-4):81--97,
   2014.
 
+\bibitem{Reuder:12}
+Joachim Reuder, MariusO. Jonassen, and Haraldur Ólafsson.
+\newblock The small unmanned meteorological observer sumo: Recent developments
+  and applications of a micro-uas for atmospheric boundary layer research.
+\newblock {\em Acta Geophysica}, 60(5):1454--1473, 2012.
+
+\bibitem{Royo:11}
+Pablo Royo, Enric Pastor, Cristina Barrado, Eduard Santamaria, Juan Lopez,
+  Xavier Prats, and Juan~Manuel Lema.
+\newblock Autopilot abstraction and standardization for seamless integration of
+  unmanned aircraft system applications.
+\newblock {\em Journal of Aerospace Computing, Information, and Communication},
+  8(7):197--223, 2011.
+
 \end{thebibliography}
