@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.5)  17 APR 2015 12:57
+=======
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2015.1.21)  17 APR 2015 13:03
+>>>>>>> Stashed changes
 entering extended mode
 **REPORT.tex
 (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\REPORT.tex
@@ -223,6 +227,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 
 (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\introduction.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
+<<<<<<< Updated upstream
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 15.
 
 <Figures/TheDrone.png, id=1, 920.68968pt x 536.75531pt>
@@ -292,6 +297,27 @@ File: Figures/vision.png Graphic file (type png)
 Package pdftex.def Info: Figures/vision.png used on input line 24.
 (pdftex.def)             Requested size: 252.94499pt x 349.10454pt.
 
+=======
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1.
+
+
+LaTeX Warning: Citation `Gibson' on page 1 undefined on input line 9.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 14.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+)
+(./our_vision.tex [1
+
+
+
+]
+File: Figures/vision.png Graphic file (type QTm)
+ <use  "Figures/vision.png" >
+>>>>>>> Stashed changes
 Overfull \hbox (9.03374pt too wide) in paragraph at lines 24--25
  [][] 
  []
@@ -301,23 +327,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
+<<<<<<< Updated upstream
 ) (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\Seong_fp.tex
+=======
+) [2] (./Seong_fp.tex
+>>>>>>> Stashed changes
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
+<<<<<<< Updated upstream
 <Figures/FP1.png, id=25, 971.12813pt x 633.86812pt>
 File: Figures/FP1.png Graphic file (type png)
  <use Figures/FP1.png>
 Package pdftex.def Info: Figures/FP1.png used on input line 8.
 (pdftex.def)             Requested size: 252.94499pt x 165.09198pt.
 
+=======
+File: Figures/FP1.png Graphic file (type QTm)
+<use  "Figures/FP1.png" >
+>>>>>>> Stashed changes
 Overfull \hbox (9.03374pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
+<<<<<<< Updated upstream
 ) (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\Peng_fp.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
+=======
+) (./Peng_fp.tex) (./fp_discussion.tex) [3] (./Yazdi_sim.tex
+File: Figures/TopViewSamples_3.png Graphic file (type QTm)
+
+<use  "Figures/TopViewSamples_3.png" >
+File: Figures/Calibrations.png Graphic file (type QTm)
+ <use  "Figures/Calibrations.png" >
+File: Figures/CameraViewSamples_3.png Graphic file (type QTm)
+
+<use  "Figures/CameraViewSamples_3.png" >
+>>>>>>> Stashed changes
 
  [4 <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Figures/vision
 .png>])
@@ -364,8 +411,13 @@ Overfull \hbox (9.03374pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
+<<<<<<< Updated upstream
 <Figures/paparazzi_sim.png, id=39, 377.91188pt x 272.51813pt>
 File: Figures/paparazzi_sim.png Graphic file (type png)
+=======
+ [4]
+File: Figures/Simulation_4Poles.png Graphic file (type QTm)
+>>>>>>> Stashed changes
 
 <use Figures/paparazzi_sim.png>
 Package pdftex.def Info: Figures/paparazzi_sim.png used on input line 11.
@@ -387,6 +439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
+<<<<<<< Updated upstream
 
 Underfull \vbox (badness 1314) has occurred while \output is active []
 
@@ -395,6 +448,9 @@ wSamples_3.png> <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Fi
 gures/CameraViewSamples_3.png> <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMA
 V/MAV-group6/Figures/Calibrations.png> <D:/Yazdies/ResearchS3/Kuliah/Autonomous
 FlightMAV/MAV-group6/Figures/Simulation_8Poles.png>]
+=======
+[5]
+>>>>>>> Stashed changes
 Underfull \hbox (badness 2150) in paragraph at lines 3--4
 []\OT1/ptm/m/n/10 During the ac-tual com-pe-ti-tion, the black wall was
  []
@@ -409,6 +465,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
+<<<<<<< Updated upstream
 [7 <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Figures/matlab.
 jpg> <D:/Yazdies/ResearchS3/Kuliah/AutonomousFlightMAV/MAV-group6/Figures/papar
 azzi_sim.png>])
@@ -422,6 +479,15 @@ Missing character: There is no § in font ptmr7t!
 Underfull \hbox (badness 1077) in paragraph at lines 10--16
 []\OT1/ptm/m/n/10 J. Pes-tana, I. Mellado-Bataller, Changhong Fu, J.L.
  []
+=======
+) (./conclusion.tex) (./REPORT.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [6] (./REPORT.aux)
+
+LaTeX Warning: There were undefined references.
+>>>>>>> Stashed changes
 
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
@@ -439,6 +505,7 @@ Missing character: There is no “ in font ptmr7t!
 
 ] (D:\Yazdies\ResearchS3\Kuliah\AutonomousFlightMAV\MAV-group6\REPORT.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  3034 strings out of 493921
  41210 string characters out of 3154534
  110473 words of memory out of 3000000
@@ -460,3 +527,14 @@ PDF statistics:
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+ 2537 strings out of 493734
+ 34022 string characters out of 6146348
+ 111328 words of memory out of 5000000
+ 5788 multiletter control sequences out of 15000+600000
+ 13021 words of font info for 41 fonts, out of 8000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 30i,9n,24p,1178b,218s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on REPORT.pdf (6 pages).
+>>>>>>> Stashed changes

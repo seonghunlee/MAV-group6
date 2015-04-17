@@ -1,8 +1,24 @@
 \subsection{Vision-based Navigation Literature}
 \label{subsec:lit_vision}
 \textcolor{red}{Here we talk about the vision algorithm used in the literature}
+
 \subsubsection{Optic Flow}
+
+For this assignment it is required that the drone can avoid obstacles autonomously. The drone has a HD pinhole camera at the front which can be used for collision avoidance. It is possible to use the colors in an image to see whether there is an object in front of the camera. Using only one frame from the camera is faster for reacting on obstacles, but it has the disadvantage of not knowing whether an object is close or not. Sometimes it can be an illusion that there is an object because of the background. In this assigment however, all obstacles are objects on the ground, simplifying the object recognition. This will be further explained in the next section.
+
+When two frames are used one can see the movement of the objects relative to eachother. Therefore it is necessary to recognise textures points in both images, so the movement between a texture point in both images can be determined. This optical flow can be used for calculating the distance to and between objects, so the 3D world can be reconstructed and the drone knows what it should avoid \cite{Gibson}. Also, from the rate of expansion the time-to-contact can be calculated. Because two frames are required and textures need to be recognised for optical flow, this method requires more computation time, but the resulting information is much more useful.
+
+Determining optical flow from two images:
+
+\begin{itemize}
+\item Feature detection: One can use the methods of Harris and FAST to detect corners in images. The speed of this calculation can be increased by downsampling the image. This will make it easier to find similar corners  because the average of a few pixels compared to the average of a few pixels will have more similarities than comparing one pixel to one pixel.
+\item Feature tracking: The movement between two corners on two images can be expressed as a vector. A taylor expansion illuminance change and a brightness constancy constraint   can solve the changes in lighting between the two images. The Lucas Kanade method is a differential method used for estimating the optical flow by solving the flow equations for the pixels in het neighborhood of the tracked pixel. By doing this it has less noise influences and ambiguities.
+\end{itemize}
+
+
 \subsubsection{Computer Vision}
-We start this section with two views concerning computer vision: David Marr's view is that the goal of the visual system is to invert the imaging process and the third dimension is added using the perceptual information provided by the eyes. On the other hand, American psychologist James Gibson stated that perception alone is enough to make sense of the world in a direct way. Processing is unnecessary because the perceived elements are detailed enough for us to interact directly with the environment.
+We start this section with two views concerning computer vision: David Marr's view is that the goal of the visual system is to invert the imaging process and the third dimension is added using the perceptual information provided by the eyes. On the other hand, American psychologist James Gibson stated that perception alone is enough to make sense of the world in a direct way. Processing is unnecessary because the perceived elements are detailed enough for us to interact directly with the environment. \textcolor{red}{The second approach will be used to create the collision avoidance algorithm since this approach requires less computing time; more details on the choice of this approach will be given throughout the paper}.
+
+\textbf{Segmentation} is a method that is used for image processing, but is still challenging since the wide range of image styles influences the difficulty of the process. Therefore two properties need to be defined for segmentation methods: 1. capture the important regions, because this often reflects the global aspects of the image. 2. be efficient, running in time nearly linear in the number of image pixels.
 \subsubsection{Mapping} SLAM
 
