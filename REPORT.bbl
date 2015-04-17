@@ -1,3 +1,44 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{Bristeau:11}
+David Vissière Nicolas~Petit Pierre-Jean~Bristeau, François~Callou.
+\newblock The navigation and control technology inside the ar.drone micro uav.
+\newblock In {\em 18th IFAC World Congress}, pages 1477--1484, Milano, Italy,
+  2011.
+
+\bibitem{Pestana:13}
+J.~Pestana, I.~Mellado-Bataller, Changhong Fu, J.L. Sanchez-Lopez, I.F.
+  Mondragon, and P.~Campoy.
+\newblock A general purpose configurable navigation controller for micro aerial
+  multirotor vehicles.
+\newblock In {\em Unmanned Aircraft Systems (ICUAS), 2013 International
+  Conference on}, pages 557--564, May 2013.
+
+\bibitem{Lugo:14}
+Jacobo Jiménez~Lugo and Andreas Zell.
+\newblock Framework for autonomous on-board navigation with the ar.drone.
+\newblock {\em Journal of Intelligent and Robotic Systems}, 73(1-4):401--412,
+  2014.
+
+\bibitem{Bouabdallah:07}
+S.~Bouabdallah and R.~Siegwart.
+\newblock Full control of a quadrotor.
+\newblock In {\em Intelligent Robots and Systems, 2007. IROS 2007. IEEE/RSJ
+  International Conference on}, pages 153--158, Oct 2007.
+
+\bibitem{Hansen:14}
+Clint Hansen, David Gibas, Jean-Louis Honeine, Nasser Rezzoug, Philippe Gorce,
+  and Brice Isableu.
+\newblock An inexpensive solution for motion analysis.
+\newblock {\em Proceedings of the Institution of Mechanical Engineers, Part P:
+  Journal of Sports Engineering and Technology}, 228(3):165--170, 2014.
+
+\bibitem{Guadarrama-Olvera:14}
+J.Rogelio Guadarrama-Olvera, JoséJ. Corona-Sánchez, and
+  H.~Rodríguez-Cortés.
+\newblock Hard real-time implementation of a nonlinear controller for the
+  quadrotor helicopter.
+\newblock {\em Journal of Intelligent and Robotic Systems}, 73(1-4):81--97,
+  2014.
 
 \end{thebibliography}
